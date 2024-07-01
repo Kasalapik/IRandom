@@ -1,11 +1,11 @@
+#ifndef IRANDOM_H
+#define IRANDOM_H
 
-#include <time.h>
+#include <ctime>
 
 using namespace std;
 
-#define IRandom
-#ifdef IRandom
-
+int irandom(int start, int end);
 
 
 #endif
